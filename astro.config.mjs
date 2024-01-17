@@ -3,9 +3,16 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://a11yguides.onrender.com",
   integrations: [
     starlight({
       title: "A11Y Guides",
+      locales: {
+        root: {
+          label: "Deutsch",
+          lang: "de-DE",
+        },
+      },
       customCss: ["./src/styles/custom.css"],
       social: {
         github: "https://github.com/withastro/starlight",
