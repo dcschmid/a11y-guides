@@ -25,7 +25,14 @@
     "@commitlint/cli": "^18.4.4",
     "@commitlint/config-conventional": "^18.4.4",
     "@mrcaidev/prettier-config-astro": "^0.1.0",
+    "eslint": "^8.56.0",
     "husky": "^8.0.3",
+    "nano-staged": "^0.8.0",
+    "npm-run-all": "^4.1.5",
     "prettier": "^3.2.4"
+  },
+  "nano-staged": {
+    "*": "prettier --write --ignore-unknown",
+    "*.{astro,js,jsx,cjs,ts,tsx,cts}": "eslint --fix"
   }
 }
