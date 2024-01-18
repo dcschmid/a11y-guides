@@ -20,6 +20,7 @@ export default defineConfig({
       sidebar: [
         {
           label: "Grundlagen der Barrierefreiheit",
+          collapsed: true,
           items: [
             {
               label: "Grundlagen",
@@ -27,6 +28,7 @@ export default defineConfig({
             },
             {
               label: "Arten von Behinderungen: Personen",
+              collapsed: true,
               items: [
                 { label: "Einleitung", link: "/guides/grundlagen/personen/einleitung" },
                 { label: "Blind", link: "/guides/grundlagen/personen/blind" },
@@ -45,6 +47,7 @@ export default defineConfig({
             },
             {
               label: "Richtlinien",
+              collapsed: true,
               items: [
                 { label: "Einleitung", link: "/guides/grundlagen/richtlinien/einleitung" },
                 { label: "WCAG", link: "/guides/grundlagen/richtlinien/wcag" },
@@ -54,6 +57,7 @@ export default defineConfig({
             },
             {
               label: "Mythen und Irrtümer über Barrierefreiheit",
+              collapsed: true,
               items: [
                 { label: "Einleitung", link: "/guides/grundlagen/mythen-und-missverstaendnisse/einleitung" },
                 {
