@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-unresolved
 import { defineCollection } from "astro:content";
 import { docsSchema, i18nSchema } from "@astrojs/starlight/schema";
 
