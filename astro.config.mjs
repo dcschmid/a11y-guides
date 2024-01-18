@@ -30,38 +30,84 @@ export default defineConfig({
               label: "Arten von Behinderungen: Personen",
               collapsed: true,
               items: [
-                { label: "Einleitung", link: "/guides/grundlagen/personen/einleitung" },
+                {
+                  label: "Einleitung",
+                  link: "/guides/grundlagen/personen/einleitung",
+                },
                 { label: "Blind", link: "/guides/grundlagen/personen/blind" },
-                { label: "Sehschwäche", link: "/guides/grundlagen/personen/sehschwaeche" },
-                { label: "Farbenblind", link: "/guides/grundlagen/personen/farbenblind" },
-                { label: "Gehörlos", link: "/guides/grundlagen/personen/gehoerlos" },
-                { label: "Taubblind", link: "/guides/grundlagen/personen/taubblind" },
-                { label: "Motorische Behinderung", link: "/guides/grundlagen/personen/motorische-behinderungen" },
-                { label: "Sprachbehinderungen", link: "/guides/grundlagen/personen/sprachbehinderungen" },
-                { label: "Kognetive Behinderungen", link: "/guides/grundlagen/personen/kognitive-behinderungen" },
-                { label: "Leseschwäche", link: "/guides/grundlagen/personen/leseschwaeche" },
-                { label: "Anfälle", link: "/guides/grundlagen/personen/anfaelle" },
-                { label: "Mehrfache Behinderungen", link: "/guides/grundlagen/personen/mehrfache-behinderungen" },
-                { label: "Zusätzliche Ressourcen", link: "/guides/grundlagen/personen/zusaetzliche-ressourcen" },
+                {
+                  label: "Sehschwäche",
+                  link: "/guides/grundlagen/personen/sehschwaeche",
+                },
+                {
+                  label: "Farbenblind",
+                  link: "/guides/grundlagen/personen/farbenblind",
+                },
+                {
+                  label: "Gehörlos",
+                  link: "/guides/grundlagen/personen/gehoerlos",
+                },
+                {
+                  label: "Taubblind",
+                  link: "/guides/grundlagen/personen/taubblind",
+                },
+                {
+                  label: "Motorische Behinderung",
+                  link: "/guides/grundlagen/personen/motorische-behinderungen",
+                },
+                {
+                  label: "Sprachbehinderungen",
+                  link: "/guides/grundlagen/personen/sprachbehinderungen",
+                },
+                {
+                  label: "Kognetive Behinderungen",
+                  link: "/guides/grundlagen/personen/kognitive-behinderungen",
+                },
+                {
+                  label: "Leseschwäche",
+                  link: "/guides/grundlagen/personen/leseschwaeche",
+                },
+                {
+                  label: "Anfälle",
+                  link: "/guides/grundlagen/personen/anfaelle",
+                },
+                {
+                  label: "Mehrfache Behinderungen",
+                  link: "/guides/grundlagen/personen/mehrfache-behinderungen",
+                },
+                {
+                  label: "Zusätzliche Ressourcen",
+                  link: "/guides/grundlagen/personen/zusaetzliche-ressourcen",
+                },
               ],
             },
             {
               label: "Richtlinien",
               collapsed: true,
               items: [
-                { label: "Einleitung", link: "/guides/grundlagen/richtlinien/einleitung" },
+                {
+                  label: "Einleitung",
+                  link: "/guides/grundlagen/richtlinien/einleitung",
+                },
                 { label: "WCAG", link: "/guides/grundlagen/richtlinien/wcag" },
                 { label: "ATAG", link: "/guides/grundlagen/richtlinien/atag" },
-                { label: "WAI-ARIA", link: "/guides/grundlagen/richtlinien/wai-aria" },
+                {
+                  label: "WAI-ARIA",
+                  link: "/guides/grundlagen/richtlinien/wai-aria",
+                },
               ],
             },
             {
               label: "Mythen und Irrtümer über Barrierefreiheit",
               collapsed: true,
               items: [
-                { label: "Einleitung", link: "/guides/grundlagen/mythen-und-missverstaendnisse/einleitung" },
                 {
-                  label: "Barrierefreiheit kommt nur einer kleinen Minderheit zugute",
+                  label: "Einleitung",
+                  link: "/guides/grundlagen/mythen-und-missverstaendnisse/einleitung",
+                },
+                {
+                  label:
+                    "Barrierefreiheit kommt nur einer kleinen Minderheit zugute",
                   link: "/guides/grundlagen/mythen-und-missverstaendnisse/minderheiten",
                 },
                 {

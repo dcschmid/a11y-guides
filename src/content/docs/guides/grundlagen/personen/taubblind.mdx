@@ -2,13 +2,13 @@
 title: Taubblind
 ---
 
-import { Accordion, AccordionItem } from 'accessible-astro-components'
-import { YouTube } from '@astro-community/astro-embed-youtube'
-import { Picture } from 'astro:assets'
+import { Accordion, AccordionItem } from "accessible-astro-components";
+import { YouTube } from "@astro-community/astro-embed-youtube";
+import { Picture } from "astro:assets";
 
-import PersonaDeafBlindStudent from '../images/personen/persona-deaf-blind-student.jpeg'
-import BrailleDisplay3 from '../images/personen/braille-display3-600.jpeg'
-import BrailleDisplay2 from '../images/personen/braille-display2-600.jpeg'
+import PersonaDeafBlindStudent from "../images/personen/persona-deaf-blind-student.jpeg";
+import BrailleDisplay3 from "../images/personen/braille-display3-600.jpeg";
+import BrailleDisplay2 from "../images/personen/braille-display2-600.jpeg";
 
 ## UX-Persönlichkeit: Treffen wir Bernice
 
@@ -18,7 +18,11 @@ schreiben. Sie hat dieses Interesse entwickelt, weil ihr Vater sich für Mensche
 mit Behinderungen eingesetzt hat, als sie jung war, um ihr die bestmögliche
 Bildung zu ermöglichen.
 
-<Picture src={PersonaDeafBlindStudent} formats={['avif', 'webp']} alt='Bernice ist Taubblind' />
+<Picture
+  src={PersonaDeafBlindStudent}
+  formats={["avif", "webp"]}
+  alt="Bernice ist Taubblind"
+/>
 
 ## Bernices Szenario
 
@@ -53,7 +57,11 @@ Nutzer/innen lesen den Text in dieser Zeile und drücken dann eine Taste, um zur
 nächsten Zeile zu gelangen. Die Stifte fallen nach unten und bewegen sich dann
 in einer neuen Konfiguration wieder nach oben, um die neue Textzeile wiederzugeben.
 
-<Picture src={BrailleDisplay3} formats={['avif', 'webp']} alt='Braille Display' />
+<Picture
+  src={BrailleDisplay3}
+  formats={["avif", "webp"]}
+  alt="Braille Display"
+/>
 
 Braillezeilen können an normale Computer angeschlossen werden und dienen als
 Ergänzung zur Haupttastatur des Computers. Die Benutzer wechseln oft zwischen der
@@ -62,7 +70,11 @@ Haupttastatur zum Tippen und der Braillezeile zum Lesen.
 Die unten abgebildete Braillezeile ist eines der größeren Modelle. Kleinere
 Modelle sind ebenfalls erhältlich.
 
-<Picture src={BrailleDisplay2} formats={['avif', 'webp']} alt='Braille Display 2' />
+<Picture
+  src={BrailleDisplay2}
+  formats={["avif", "webp"]}
+  alt="Braille Display 2"
+/>
 
 ## Designüberlegungen für Taubblindheit
 
@@ -75,35 +87,40 @@ Modelle sind ebenfalls erhältlich.
   </thead>
   <tbody>
     <tr>
-      <td data-label='Design-Überlegungen'>
+      <td data-label="Design-Überlegungen">
         Es gelten die gleichen Überlegungen wie bei Blindheit.
       </td>
-      <td data-label='Warum?'>
-        Wie blinde Menschen verwenden auch taub blinde Menschen ein Bildschirmlesegerät als
-        Ausgabegerät. Doch anstatt sich auf die Audioausgabe zu verlassen, wird ein aktualisierbares
-        Braille-Ausgabegerät verwendet, damit taub blinde Menschen Inhalte durch Berührung lesen
-        können.
+      <td data-label="Warum?">
+        Wie blinde Menschen verwenden auch taub blinde Menschen ein
+        Bildschirmlesegerät als Ausgabegerät. Doch anstatt sich auf die
+        Audioausgabe zu verlassen, wird ein aktualisierbares
+        Braille-Ausgabegerät verwendet, damit taub blinde Menschen Inhalte durch
+        Berührung lesen können.
       </td>
     </tr>
     <tr>
-      <td data-label='Design-Überlegungen'>
+      <td data-label="Design-Überlegungen">
         Es gelten die gleichen Überlegungen wie bei Taubheit.
       </td>
-      <td data-label='Warum?'>
-        Alle Erwägungen für Gehörlose gelten in dem Sinne, dass eine Alternative für den Zugang zu
-        Audioinhalten bereitgestellt werden sollte, insbesondere in einem textbasierten Format.
+      <td data-label="Warum?">
+        Alle Erwägungen für Gehörlose gelten in dem Sinne, dass eine Alternative
+        für den Zugang zu Audioinhalten bereitgestellt werden sollte,
+        insbesondere in einem textbasierten Format.
       </td>
     </tr>
     <tr>
-      <td data-label='Design-Überlegungen'>
-        Außerdem muss für Audio- und Videoinhalte eine Abschrift erstellt werden.
+      <td data-label="Design-Überlegungen">
+        Außerdem muss für Audio- und Videoinhalte eine Abschrift erstellt
+        werden.
       </td>
-      <td data-label='Warum?'>
-        Abschriften sind die einzige Möglichkeit für taub blinde Menschen, auf alle Informationen
-        zuzugreifen, die in Audio- und Videoformaten übermittelt werden. Einige moderne
-        Braille-Lesegeräte können Videountertitel anzeigen, aber es kann schwierig sein, die
-        Braille-Zeichen so schnell zu lesen, wie die Untertitel angezeigt werden, daher sind
-        Abschriften immer noch die beste Option für taub blinde Nutzer.
+      <td data-label="Warum?">
+        Abschriften sind die einzige Möglichkeit für taub blinde Menschen, auf
+        alle Informationen zuzugreifen, die in Audio- und Videoformaten
+        übermittelt werden. Einige moderne Braille-Lesegeräte können
+        Videountertitel anzeigen, aber es kann schwierig sein, die
+        Braille-Zeichen so schnell zu lesen, wie die Untertitel angezeigt
+        werden, daher sind Abschriften immer noch die beste Option für taub
+        blinde Nutzer.
       </td>
     </tr>
   </tbody>

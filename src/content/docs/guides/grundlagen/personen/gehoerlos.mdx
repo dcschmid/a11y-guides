@@ -2,11 +2,11 @@
 title: "Gehörlos"
 ---
 
-import { Accordion, AccordionItem } from 'accessible-astro-components'
-import { YouTube } from '@astro-community/astro-embed-youtube'
-import { Picture } from 'astro:assets'
+import { Accordion, AccordionItem } from "accessible-astro-components";
+import { YouTube } from "@astro-community/astro-embed-youtube";
+import { Picture } from "astro:assets";
 
-import PersonaDeafAttorney from '../images/personen/persona-deaf-attorney.jpeg'
+import PersonaDeafAttorney from "../images/personen/persona-deaf-attorney.jpeg";
 
 ## UX-Persönlichkeit: Treffen wir Mark
 
@@ -16,8 +16,8 @@ seinem Büro aus eine tolle Aussicht hat und gerne produktiv ist.
 
 <Picture
   src={PersonaDeafAttorney}
-  formats={['avif', 'webp']}
-  alt='Mark ist ein Anwalt, der taub ist'
+  formats={["avif", "webp"]}
+  alt="Mark ist ein Anwalt, der taub ist"
 />
 
 ## Marks Szenario
@@ -58,7 +58,7 @@ Unten siehst du ein Beispiel für ein Video mit synchronisierten Untertiteln. We
 nicht automatisch eingeschaltet sind, wähle die Schaltfläche Abspielen und dann die Schaltfläche C
 („C“ steht für „Captions“) unten links im Video.
 
-<YouTube id='ZpGLy-FyOc0' />
+<YouTube id="ZpGLy-FyOc0" />
 
 <Accordion>
   <AccordionItem header="Video-Abschrift">
@@ -124,31 +124,34 @@ Bildschirmlesegerät in Braille-Schrift umgewandelt werden kann.
   </thead>
   <tbody>
     <tr>
-      <td data-label='Design-Überlegungen'>Alle Videos müssen mit Untertiteln versehen sein.</td>
-      <td data-label='Warum?'>
-        Ohne Bildunterschriften können gehörlose Menschen wichtige Informationen verpassen, die
-        durch Dialoge und Erzählungen vermittelt werden, und sie können wichtige Geräusche
-        verpassen, die dem Video Bedeutung verleihen.
+      <td data-label="Design-Überlegungen">
+        Alle Videos müssen mit Untertiteln versehen sein.
+      </td>
+      <td data-label="Warum?">
+        Ohne Bildunterschriften können gehörlose Menschen wichtige Informationen
+        verpassen, die durch Dialoge und Erzählungen vermittelt werden, und sie
+        können wichtige Geräusche verpassen, die dem Video Bedeutung verleihen.
       </td>
     </tr>
     <tr>
-      <td data-label='Design-Überlegungen'>
+      <td data-label="Design-Überlegungen">
         Alle reinen Audio-Inhalte müssen mit Transkriptionen versehen sein.
       </td>
-      <td data-label='Warum?'>
-        Transkripte sind notwendig, um alle Informationen zu übermitteln, die per Audio übertragen
-        werden, einschließlich der Dialoge (und der Identifizierung der Sprecher), der Erzählung,
-        der musikalischen Hinweise und der Soundeffekte.
+      <td data-label="Warum?">
+        Transkripte sind notwendig, um alle Informationen zu übermitteln, die
+        per Audio übertragen werden, einschließlich der Dialoge (und der
+        Identifizierung der Sprecher), der Erzählung, der musikalischen Hinweise
+        und der Soundeffekte.
       </td>
     </tr>
     <tr>
-      <td data-label='Design-Überlegungen'>
+      <td data-label="Design-Überlegungen">
         Die Übersetzung von Videos in Gebärdensprache kann sehr hilfreich sein.
       </td>
-      <td data-label='Warum?'>
-        Es gibt einige Gehörlose, deren primäres Kommunikationsmittel die Gebärdensprache ist. Für
-        diese Gruppe kann das Verdolmetschen der Gebärdensprache gegenüber Untertiteln und
-        Abschriften bevorzugt werden.
+      <td data-label="Warum?">
+        Es gibt einige Gehörlose, deren primäres Kommunikationsmittel die
+        Gebärdensprache ist. Für diese Gruppe kann das Verdolmetschen der
+        Gebärdensprache gegenüber Untertiteln und Abschriften bevorzugt werden.
       </td>
     </tr>
   </tbody>
