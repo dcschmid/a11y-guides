@@ -8,7 +8,8 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "lint:format": "prettier --check ."
+    "lint:format": "prettier --check .",
+    "commitlint": "commitlint --edit"
   },
   "dependencies": {
     "@astro-community/astro-embed-youtube": "^0.4.3",
@@ -21,7 +22,10 @@
     "typescript": "^5.3.3"
   },
   "devDependencies": {
+    "@commitlint/cli": "^18.4.4",
+    "@commitlint/config-conventional": "^18.4.4",
     "@mrcaidev/prettier-config-astro": "^0.1.0",
+    "husky": "^8.0.3",
     "prettier": "^3.2.4"
   }
 }
