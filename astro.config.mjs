@@ -35,50 +35,6 @@ export default defineConfig({
                   link: "/guides/grundlagen/personen/einleitung",
                 },
                 { label: "Blind", link: "/guides/grundlagen/personen/blind" },
-                {
-                  label: "Sehschwäche",
-                  link: "/guides/grundlagen/personen/sehschwaeche",
-                },
-                {
-                  label: "Farbenblind",
-                  link: "/guides/grundlagen/personen/farbenblind",
-                },
-                {
-                  label: "Gehörlos",
-                  link: "/guides/grundlagen/personen/gehoerlos",
-                },
-                {
-                  label: "Taubblind",
-                  link: "/guides/grundlagen/personen/taubblind",
-                },
-                {
-                  label: "Motorische Behinderung",
-                  link: "/guides/grundlagen/personen/motorische-behinderungen",
-                },
-                {
-                  label: "Sprachbehinderungen",
-                  link: "/guides/grundlagen/personen/sprachbehinderungen",
-                },
-                {
-                  label: "Kognetive Behinderungen",
-                  link: "/guides/grundlagen/personen/kognitive-behinderungen",
-                },
-                {
-                  label: "Leseschwäche",
-                  link: "/guides/grundlagen/personen/leseschwaeche",
-                },
-                {
-                  label: "Anfälle",
-                  link: "/guides/grundlagen/personen/anfaelle",
-                },
-                {
-                  label: "Mehrfache Behinderungen",
-                  link: "/guides/grundlagen/personen/mehrfache-behinderungen",
-                },
-                {
-                  label: "Zusätzliche Ressourcen",
-                  link: "/guides/grundlagen/personen/zusaetzliche-ressourcen",
-                },
               ],
             },
             {
@@ -131,6 +87,75 @@ export default defineConfig({
             {
               label: "Zusammenfassung",
               link: "/guides/grundlagen/zusammenfassung",
+            },
+          ],
+        },
+        {
+          label: "Gestaltung einer barrierefreien Benutzererfahrung",
+          collapsed: true,
+          items: [
+            {
+              label: "Einleitung",
+              link: "/guides/ux-design/einleitung",
+            },
+            {
+              label: "Barrierefreiheit und inklusives Design",
+              collapsed: true,
+              items: [
+                {
+                  label: "Einleitung",
+                  link: "/guides/ux-design/barrierefreiheit-inklusives-design/einleitung",
+                },
+                {
+                  label: "Barrierefreiheit als Mindestziel definieren",
+                  link: "/guides/ux-design/barrierefreiheit-inklusives-design/mindestziel",
+                },
+                {
+                  label: "7 Grundsätze des universellen Designs",
+                  link: "/guides/ux-design/barrierefreiheit-inklusives-design/grundsaetze-universellen-designs",
+                },
+              ],
+            },
+            {
+              label: "Exklusive Entwurfsmuster meiden",
+              collapsed: true,
+              items: [
+                {
+                  label: "Einleitung",
+                  link: "/guides/ux-design/exklusives-design-vermeiden/einleitung",
+                },
+                {
+                  label: "Annahmen prüfen",
+                  link: "/guides/ux-design/exklusives-design-vermeiden/annahmen",
+                },
+                {
+                  label: "Designs, die zum Ausschluss führen",
+                  link: "/guides/ux-design/exklusives-design-vermeiden/ausschluss",
+                },
+                {
+                  label:
+                    "Aus Fehlern bei der Gestaltung der Barrierefreiheit lernen",
+                  link: "/guides/ux-design/exklusives-design-vermeiden/aus-fehlern-lernen",
+                },
+              ],
+            },
+            {
+              label: "Umfassende Vielfalt",
+              collapsed: true,
+              items: [
+                {
+                  label: "Einleitung",
+                  link: "/guides/ux-design/umfassende-vielfalt/einleitung",
+                },
+                {
+                  label: "Untersuchung der Randfälle",
+                  link: "/guides/ux-design/umfassende-vielfalt/untersuchung-der-randfaelle",
+                },
+                {
+                  label: "Nutzerforschung mit Menschen mit Behinderungen",
+                  link: "/guides/ux-design/umfassende-vielfalt/nutzerforschung-mit-menschen-mit-behinderungen",
+                },
+              ],
             },
           ],
         },
